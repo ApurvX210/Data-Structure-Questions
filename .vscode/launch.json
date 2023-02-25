@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch threeSum",
+            "request": "launch",
+            "mainClass": "threeSum",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment",
+            "request": "launch",
+            "mainClass": "Assignment",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch PopupMenuExample",
+            "request": "launch",
+            "mainClass": "PopupMenuExample",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch a1",
+            "request": "launch",
+            "mainClass": "a1",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch a3",
+            "request": "launch",
+            "mainClass": "a3",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch complex",
+            "request": "launch",
+            "mainClass": "complex",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch cordinate",
+            "request": "launch",
+            "mainClass": "cordinate",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch frame2",
+            "request": "launch",
+            "mainClass": "frame2",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch frame3",
+            "request": "launch",
+            "mainClass": "frame3",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch frame4",
+            "request": "launch",
+            "mainClass": "frame4",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch frame5",
+            "request": "launch",
+            "mainClass": "frame5",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch frame6",
+            "request": "launch",
+            "mainClass": "frame6",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch grid",
+            "request": "launch",
+            "mainClass": "grid",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch menu1",
+            "request": "launch",
+            "mainClass": "menu1",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        },
+        {
+            "type": "java",
+            "name": "Launch prac1",
+            "request": "launch",
+            "mainClass": "prac1",
+            "projectName": "JavaProgramming_ce8aaa3d"
+        }
+    ]
+}

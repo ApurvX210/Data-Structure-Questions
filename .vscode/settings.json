@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "javafolder2",
+        "javafolder",
+        "GuiProgram",
+        "StackAndQueue",
+        "BackTracking"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\apurv\\OneDrive\\Desktop\\mysql-connector-java-8.0.27.jar",
+        "c:\\Users\\apurv\\Downloads\\mysql-connector-java-8.0.15.jar"
+    ]
+}
