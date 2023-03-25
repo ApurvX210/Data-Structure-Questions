@@ -11,7 +11,6 @@ public class SubTree {
 
         TreeNode() {
         }
-
         TreeNode(int val) {
             this.val = val;
         }
