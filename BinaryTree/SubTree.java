@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -21,35 +22,43 @@ public class SubTree {
             this.right = right;
         }
     }
-    public TreeNode Possible(TreeNode root, TreeNode subRoot){
-        if(root==subRoot){
-            return root;
+    public void Possible(TreeNode root, TreeNode subRoot,ArrayList<TreeNode> a){
+        if(root ==null || subRoot==null){
+            return;
         }
-        TreeNode a=Possible(root.left, subRoot);
-        if(a!=null){
-            return a;
+        if(root.val==subRoot.val){
+            a.add(root);
         }
-        TreeNode b=Possible(root.right, subRoot);
-        if(b!=null){
-            return b;
-        }
-        return null;
-        
+        Possible(root.left, subRoot, a);
+        Possible(root.right, subRoot, a);
     }
-    public boolean STree(TreeNode root, TreeNode subRoot){
-        if(root!=subRoot){
+    public boolean STree(TreeNode p, TreeNode q) {
+        if(p==null && q==null){
+            return true;
+        }
+        if(p==null && q!=null){
             return false;
         }
-        if(root==null && subRoot==null){
-            return true;
+        if(p!=null && q==null){
+            return false;
         }
-        if(STree(root.left, subRoot.left) && STree(root.right, subRoot.left)){
-            return true;
+        if(p.val==q.val){
+            if(STree(p.left, q.left) && STree(p.right, q.right)){
+                return true;
+            }
+            return false;
         }
         return false;
     }
     public  boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        TreeNode temp=Possible(root, subRoot);
-        return STree(temp, subRoot);
+        ArrayList<TreeNode> a=new ArrayList<>();
+        Possible(root, subRoot, a);
+        for(TreeNode i:a){
+            System.out.println(i.val);
+            if(STree(i, subRoot)){
+                return true;
+            }
+        }
+        return false;
     }
 }
