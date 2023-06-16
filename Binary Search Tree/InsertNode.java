@@ -13,12 +13,27 @@ public class InsertNode {
     Node insert(Node root, int Key) {
         Node temp=root;
         while(temp!=null){
-            if(temp.data >Key){
-                if(temp.left.data<Key){
+            if(temp.data>Key){
+                if(temp.left==null){
                     Node n=new Node(Key);
-                    n.right=
+                    temp.left=n;
+                    break;
+                }else{
+                    temp=temp.left;
                 }
             }
+            else if(temp.data<Key){
+                if(temp.right==null){
+                    Node n=new Node(Key);
+                    temp.right=n;
+                    break;
+                }else{
+                    temp=temp.right;
+                }
+            }else{
+                break;
+            }
         }
+        return root;
     }
 }
