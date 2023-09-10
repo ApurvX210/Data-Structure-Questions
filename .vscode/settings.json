@@ -1,8 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "javafolder2",
         "javafolder",
-        "GuiProgram",
         "StackAndQueue",
         "BackTracking"
     ],
